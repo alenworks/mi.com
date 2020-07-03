@@ -1,0 +1,29 @@
+{
+  "name": "mi.com",
+  "version": "1.0.0",
+  "description": "1. 新建项目目录  mi.com\r 2. 对项目进行初始化 `$ npm init -y`\r 3. 构建项目的目录结构",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-rename": "^2.0.0",
+    "jquery": "^3.5.1",
+    "requirejs": "file:requirejs",
+    "swiper": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxsrzj0325/mi.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jxsrzj0325/mi.com/issues"
+  },
+  "homepage": "https://github.com/jxsrzj0325/mi.com#readme"
+}

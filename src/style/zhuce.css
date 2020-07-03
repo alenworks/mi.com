@@ -1,0 +1,121 @@
+@charset "utf-8";
+body {
+  background: #F9F9F9;
+}
+.zhuce {
+  width: 854px;
+  height: 550px;
+  padding: 0 34px 0px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.zhuce .logo {
+  width: 786;
+  height: 88px;
+  background: url(../img/zclogo.png) no-repeat center top;
+}
+.zhuce h2 {
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.zhuce .area {
+  margin: 0 auto;
+  width: 332px;
+  height: 308px;
+  padding: 30px 0;
+}
+.zhuce .area h4 {
+  width: 332px;
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.zhuce .area .country {
+  width: 318px;
+  height: 42px;
+  padding-left: 14px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.zhuce .area .country .cou-cont {
+  line-height: 42px;
+  color: #555555;
+}
+.zhuce .area .country .cou-cont span {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-left: 1px solid #E8E8E8;
+  float: right;
+  text-align: center;
+  font-size: 19px;
+  color: #E8E8E8;
+}
+.zhuce .area .country h5 {
+  font-size: 14px;
+  margin-left: -15px;
+  color: #555555;
+  padding-top: 3px;
+  margin-bottom: 15px;
+}
+.zhuce .area h3 {
+  margin-top: 40px;
+}
+.zhuce .area .num {
+  width: 54px;
+  height: 42px;
+  border: 1px solid #E8E8E8;
+  padding: 0 9px;
+  font-size: 14px;
+  color: #7B5555;
+  text-align: center;
+  line-height: 42px;
+  float: left;
+  cursor: pointer;
+}
+.zhuce .area .num span {
+  font-size: 14px;
+}
+.zhuce .area input {
+  width: 254px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin: 0;
+  border: 1px solid #E8E8E8;
+}
+.zhuce .area p {
+  font-size: 14px;
+  color: #E0E0E0;
+  text-align: center;
+}
+.words {
+  width: 100%;
+  font-size: 12px;
+}
+.words li {
+  float: left;
+  border-right: 1px solid #b0b0b0;
+}
+.words li a {
+  padding: 0 4px;
+  color: #b0b0b0;
+}
+.words li:nth-of-type(1) {
+  margin-left: 555px;
+}
+.words li:nth-of-type(5) {
+  border: 0;
+}
+.words a:hover {
+  color: black;
+}
+.foot {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  color: #b0b0b0;
+}

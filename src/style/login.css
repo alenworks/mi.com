@@ -1,0 +1,134 @@
+@charset "utf-8";
+#logo {
+  width: 1226px;
+}
+#logo {
+  height: 98px;
+  margin: 0 auto;
+}
+#logo a {
+  display: block;
+  width: 200px;
+  height: 98px;
+  background: url(../img/login_logo.png) no-repeat;
+}
+#login-banner {
+  position: relative;
+  height: 588px;
+  width: 100%;
+  background: url(../img/loginbg.jpg) no-repeat center center;
+}
+#login-banner .login-tabs {
+  width: 344px;
+  height: 31px;
+  padding: 27px 33px 24px;
+  font-size: 24px;
+  background: #ffffff;
+  position: absolute;
+  left: 900px;
+  top: 30px;
+}
+#login-banner .login-tabs h2 {
+  float: left;
+  font-size: 24px;
+  padding: 0 37px;
+  border-right: 1px solid #E0E0E0;
+}
+#login-banner .login-tabs h2:nth-child(2) {
+  border: 0;
+}
+#login-banner form {
+  position: absolute;
+  top: 112px;
+  left: 900px;
+  width: 410px;
+  height: 556px;
+  background: #ffffff;
+}
+#login-banner form input {
+  display: block;
+  width: 306px;
+  height: 22px;
+  padding: 13px 16px 13px 14px;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+#login-banner form .btn {
+  width: 339px;
+  height: 55px;
+  padding: 18px 96px 31px 94px;
+  border: 0;
+  background: #FF6700;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 45px;
+}
+#login-banner .login {
+  display: block;
+  color: #FF6700;
+  position: absolute;
+  top: 350px;
+  left: 935px;
+  padding: 0 5px;
+}
+#login-banner .login:nth-of-type(2) {
+  left: 1135px;
+  color: #b0b0b0;
+  border-right: 1px solid #E0E0E0;
+}
+#login-banner .login:nth-of-type(3) {
+  left: 1211px;
+  color: #b0b0b0;
+}
+#login-banner .other {
+  position: absolute;
+  font-size: 28px;
+  top: 568px;
+  left: 898px;
+  width: 237px;
+  height: 36px;
+  display: flex;
+  padding: 0 80px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#login-banner span {
+  position: absolute;
+  color: #b0b0b0;
+  top: 547px;
+  left: 1047px;
+}
+.words {
+  width: 100%;
+  margin: 115px 0 0;
+}
+.words li {
+  float: left;
+  border-right: 1px solid #b0b0b0;
+}
+.words li a {
+  padding: 0 4px;
+  color: #b0b0b0;
+}
+.words li:nth-of-type(1) {
+  margin-left: 586px;
+}
+.words li:nth-of-type(5) {
+  border: 0;
+}
+.words a:hover {
+  color: black;
+}
+.foot {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  color: #b0b0b0;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
