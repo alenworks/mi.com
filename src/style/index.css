@@ -811,3 +811,6 @@
 .footer .links a:nth-of-type(1) {
   margin-top: 0;
 }
+.swiper-button-prev{
+  left: 240px !important;
+}

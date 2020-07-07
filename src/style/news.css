@@ -77,148 +77,37 @@ a {
     position: relative;
 }
 
-.img-left {
-    width: 560px;
-    float: left;
-    border: 1px solid #000;
-    overflow: hidden;
-    position: relative;
-}
-
-.magnify-glass {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 560px;
-    overflow: hidden;
-}
-
-.magnify-glass img {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.magnify-glass #mask {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    cursor: pointer;
-    visibility: hidden;
-    background: rgba(125, 125, 0, .5);
-}
-
-
-/* 右侧的放大镜效果 */
 .product-box .product-bigpic {
-    position: absolute;
-    width: 650px;
+    width: 600px;
     height: 650px;
-    left: 561px;
-    visibility: hidden;
-    z-index: 999;
-    margin-left: -1px;
-    overflow: hidden;
-    border: 1px solid #000;
-}
-
-.product-box .product-bigpic img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 650px;
-    height: 650px;
-}
-
-#spic {
-    width: 560px;
-    height: 560px;
-}
-
-#spic img {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.slideWrap {
-    height: 58px;
-    position: relative;
-}
-
-.slide-img {
-    position: absolute;
-    width: 450px;
-    height: 58px;
-    margin: 0 auto;
-    overflow: hidden;
-    left: 55px;
-
-}
-
-.slideWrap .next-btn {
-    position: absolute;
-    width: 35px;
-    height: 58px;
-    background: url(../img/icon-slides.png) no-repeat -125px 50%;
-    right: 0;
-    line-height: 32px;
-
-}
-
-.slideWrap .prev-btn {
-    position: absolute;
-    width: 35px;
-    height: 58px;
-    background: url(../img/icon-slides.png) no-repeat -84px 50%;
-    left: 0;
-    line-height: 32px;
-}
-
-.slideWrap .prev-btn:hover {
-    background-position: 0 50%;
-}
-.slideWrap .next-btn:hover {
-    background-position:-42px 50%;
-}
-
-.slide-img ul {
-    position: absolute;
-    left: 0;
-    width: 2000px;
-    height: 58px;
-
-}
-
-.slide-img ul li {
     float: left;
-    width: 55px;
-    height: 48px;
-    border: 1px solid #ff6700;
-    padding: 5px 9px;
 }
-
-.slide-img ul li img {
-    display: block;
-    width: 100%;
-    height: 100%;
+.swiper-button-prev{
+    position: absolute;
+    left: 0!important;
 }
-
+.product-box .product-bigpic img {
+    /* position: absolute; */
+    left: 0;
+    top: 0; 
+    
+ } 
+ .swiper-button-next{
+    position: absolute;
+    left: 575px!important;
+ }
 
 
 /* 右边商品信息 */
 
 .product-info {
-    width: 600px;
+    width: 575px;
     padding: 0 14px;
     float: right;
 }
 
 .product-con h2 {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 400;
     color: #212121;
 
@@ -368,7 +257,7 @@ a {
 }
 
 .buy-option a {
-    margin-left: 30px;
+    margin-left: 23px;
     display: inline-block;
     background: #ff6700;
     width: 100px;

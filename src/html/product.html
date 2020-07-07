@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="../style/font_zcllrcdjjm8/iconfont.css">
     <link rel="stylesheet" href="../style/font_otgccx3m5uo/iconfont.css">
     <link rel="stylesheet" href="../style/font_wyyc0ljkerc/iconfont.css">
+    <link rel="stylesheet" href="../style/news.css">
     <link rel="stylesheet" href="../style/swiper.css">
     <link rel="stylesheet" href="../style/swiper.min.css">
-    <link rel="stylesheet" href="../style/news.css">
 </head>
 <script src="../js/swiper.min.js"></script>
 <script src="../js/require.js" data-main="../js/main.product"></script>
+
 </head>
 
 <body>
@@ -77,7 +78,7 @@
         </div>
     </div>
     <div class="topNav-bar" id="">
-        <div class="top-con">
+         <!-- <div class="top-con">
             <div class="navwrap container">
                 <h2>小米10</h2>
                 <div class="left">
@@ -93,10 +94,10 @@
                     <a href="">用户评价</a>
                 </div>
             </div>
-        </div>
+        </div>  -->
     </div>
     <div class="mi-detail ">
-        <div class="product-box">
+        <!-- <div class="product-box">
             <div class="product-bigpic">
                 <img src="" alt="" id="bigpic">
             </div>
@@ -104,12 +105,7 @@
                 <div class="product-info">
                     <h2>
                     </h2>
-                    <p class="sale-desc">
-                        <font></font>
-                    </p>
-                    <p class="company-info"></p>
-                    <p class="price-info"></p>
-                    <div class="line"></div>
+                    地址
                     <div class="address-box">
                         <i></i>
                         <div class="address-con">
@@ -155,14 +151,14 @@
                         <button class="btn btn-primary btn-small quantity-add">
                             &plus;
                         </button>
-                        <a id="add-cart" href="javascript:;">加入购物车</a>
+                        <a id="add-cart" href="./shopcar.html">加入购物车</a>
 
-                        <a id="buy-action" target="_blank" href="javascript:;">进入购物车</a>
+                        <a id="buy-action" target="_blank" href="./shopcar.html">进入购物车</a>
                         <a id="buy-action" target="_blank" href="javascript:;">继续购买</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="footer">
         <ul class="footerserver">
@@ -250,5 +246,26 @@
     </div>
 
 </body>
+<!-- Initialize Swiper  -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        cssMode: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        speed: 300,
+        autoplay: {
+            delay: 3000
+        },
+        loop: true,
+        mousewheel: true,
+        keyboard: true,
+    });
+</script>
 
 </html>
