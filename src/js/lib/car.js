@@ -1,13 +1,14 @@
 let baseUrl = "http://localhost/mi.com";
 define(['jquery', 'cookie'], function ($, cookie) {
     return {
-        render: function () {
+        render: function (callback) {
             let shop = cookie.get('shop');
             // console.log(shop);
             if (shop) {
                 shop = JSON.parse(shop);
                 // console.log(shop);
                 let id = shop.map(eml => eml.id).join();
+    
                 // console.log(id)
                 $.ajax({
                     type: "get",
@@ -24,34 +25,34 @@ define(['jquery', 'cookie'], function ($, cookie) {
                             // console.log(elm)
                             let pic = JSON.parse(elm.img_car);
                             // console.log(pic);
-                            console.log(shop)
+                            // console.log(shop)
                             let arr = shop.filter(val => val.id == elm.id);
-                            console.log(arr);
+                            // console.log(arr);
                             temp += `  
-              <ul class="car-msg">
-                  <li>
-                      <div class="check"><input type="checkbox"></div>
+                       <ul class="car-msg">
+                         <li data-id="${elm.id}">
+                      <div class="check"><input class="one" type="checkbox" checked></div>
                       <img src="${baseUrl}/${pic.src}" alt="">
                     <a href="javascript:;">${elm.title4}</a>
-                    <span class="price">${elm.price}元</span>
+                    <span class="price"><em>${elm.price}</em>元</span>
                     
                     <div>
-                        <i>+</i>
-                        <i>${arr[0].num}</i>
-                        <i>-</i>
+                       <i class="reduce">-</i>
+                        <input  value="${arr[0].num}" type="text" class="nums"></input>
+                        <i class="add">+</i>
                     </div>
-                    <span class="result">${arr[0].num*elm.price}元</span>
+                    <span class="result"><em>${arr[0].num * elm.price}</em>元</span>
                     <span class="move">×</span>
-                </li>
-              </ul>
-            `
+                         </li>
+                           </ul>`
 
                         })
                         $('.car-msg').append(temp);
-
+                        callback && callback();
                     }
 
                 });
+                    
             }
 
         }

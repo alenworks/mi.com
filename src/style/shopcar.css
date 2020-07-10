@@ -156,6 +156,18 @@
   text-align: center;
   border: 1px solid #e0e0e0;
   cursor: pointer;
+  user-select: none;
+}
+.car-main ul li div input {
+  width: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
 }
 .car-main ul li .result {
   width: 78px;
@@ -167,6 +179,7 @@
   color: #FF6700;
   font-size: 14px;
   line-height: 50px;
+  user-select: none;
 }
 .car-main ul li .move {
   display: block;
